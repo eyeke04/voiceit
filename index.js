@@ -5,7 +5,8 @@ var bodyParser = require('body-parser');
 var pwc = require('PayWithCapture');
 var pwc_lib = require('./lib/pwc');
 
-var app = require('express')();
+var express = require('express');
+var app = express();
 //var otp = pwc_lib.otp("+2348064006070");
 
 var routes = require('./routes/index');

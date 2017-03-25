@@ -1,0 +1,28 @@
+{
+  "name": "voiceit",
+  "version": "1.0.0",
+  "description": "Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyeke04/voiceit.git"
+  },
+  "author": "ikey001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyeke04/voiceit/issues"
+  },
+  "homepage": "https://github.com/eyeke04/voiceit#readme",
+  "dependencies": {
+    "PayWithCapture": "git+https://github.com/PayWC/PayWithCapture-Nodejs.git",
+    "async": "^2.1.5",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "request": "^2.81.0"
+  }
+}
